@@ -50,5 +50,16 @@
 192.20.150.75 ansible_user=lss ansible_password=newpwd_12a
 192.20.151.75 ansible_user=lss ansible_password=newpwd_12a
 
+[Site-A-B-COM-SU]
+192.20.176.206 ansible_user=axadmin ansible_password=com!Dec17a
+
+[Site-C-D-COM-SU]
+192.20.178.206 ansible_user=axadmin ansible_password=com!Dec17a
+
+[Site-E-F-COM-SU]
+192.20.178.206 ansible_user=axadmin ansible_password=com!Dec17a
+
+
+
 [this-pc]
 10.0.0.59
