@@ -1,0 +1,11 @@
+- name: host-name
+  hosts: Lab-ISCs
+  tasks:
+  - name: copy file from local to remote
+    copy:
+      src: /home/vagrant/config.txt
+      dest: /export/home/lss/config.txt
+      owner: lss
+      group: lss
+      mode: '0644'
+

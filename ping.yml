@@ -1,0 +1,3 @@
+- hosts:  Lab-ISCs
+  tasks:
+  - action: ping

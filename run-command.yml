@@ -1,0 +1,9 @@
+- name: host-name
+  hosts: Lab-ISCs
+  tasks:
+  - name: hostname
+    shell: echo $HOSTNAME
+    register: out
+
+  - debug: var=out.stdout_lines
+
